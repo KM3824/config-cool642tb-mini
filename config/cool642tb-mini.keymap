@@ -171,6 +171,7 @@
         bindings = <&kp JP_BSLH>, <&kp JP_UNDERSCORE>;
 
         mods = <(MOD_LSFT|MOD_RSFT)>;
+        keep-mods = <(MOD_LSFT|MOD_RSFT)>;
     };
 
     behaviors {
