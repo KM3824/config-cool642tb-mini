@@ -202,7 +202,7 @@
 
         FUNCTION {
             bindings = <
-&kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)  &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp UNDER                              &moC              &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp UNDER         &kp BACKSPACE
+&kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)  &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp MINUS                              &moC              &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp UNDER         &kp BACKSPACE
 &kp HOME            &kp END              &kp LS(LC(TAB))     &kp LC(TAB)          &kp LA(TAB)     &kp UNDER      &trans  &moI              &kp RIGHT_BRACKET  &kp BACKSLASH         &kp SEMICOLON     &kp SINGLE_QUOTE
 &kp LG(D)           &kp LG(DOWN_ARROW)   &kp LC(PAGE_UP)     &kp LC(PAGE_DOWN)    &kp LA(ESCAPE)  &trans         &trans  &kp LEFT_BRACKET  &kp RS(COMMA)      &kp RS(PERIOD)        &kp RS(NUMBER_1)  &kp SLASH
 &trans              &trans               &trans              &trans               &trans          &trans         &trans  &trans                                                                       &kp LG(LS(S))
@@ -213,7 +213,7 @@
 
         NUM {
             bindings = <
-&kp TAB                &mo7          &mo8       &mo9          &kp UNDER                              &kp ENTER        &kp RC(PAGE_UP)  &kp UP_ARROW    &kp RC(PAGE_DOWN)  &kp DEL
+&kp TAB                &mo7          &mo8       &mo9          &kp MINUS                              &kp ENTER        &kp RC(PAGE_UP)  &kp UP_ARROW    &kp RC(PAGE_DOWN)  &kp DEL
 &kp LS(DOUBLE_QUOTES)  &kp NUMBER_4  &kp N5     &mo6          &kp RS(COLON)  &kp LS(LT)      &trans  &kp TAB          &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW    &kp BACKSPACE
 &kp N0                 &kp NUMBER_1  &mo2       &kp NUMBER_3  &kp SLASH      &trans          &trans  &kp RS(RC(TAB))  &kp RC(TAB)      &kp F2          &kp ESCAPE         &kp F4
 &kp ESC                &kp PERIOD    &kp COMMA  &trans        &trans         &trans          &trans  &trans                                                               &trans
