@@ -51,6 +51,7 @@
         };
     };
 };
+
     mo2: mo2 {
         compatible = "zmk,behavior-mod-morph";
         #binding-cells = <0>;
