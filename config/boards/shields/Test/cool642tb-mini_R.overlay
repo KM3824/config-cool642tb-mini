@@ -1,8 +1,8 @@
 #include "cool642tb-mini.dtsi"
 #include <input/processors.dtsi>
 
-#define MOUSE_LAYER 4
-#define SCROLL_LAYER 5
+#define MOUSE 4
+#define SCROLL 5
 
 &default_transform {
     col-offset = <6>;
@@ -33,7 +33,7 @@
     trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball>;
-        input-processors = <&zip_temp_layer MOUSE_LAYER 10000>;
+        input-processors = <&zip_temp_layer MOUSE 10000>;
     };
 };
 
@@ -72,7 +72,7 @@
         reg = <0>;
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        automouse-layer = <MOUSE_LAYER>;
-        scroll-layers = <SCROLL_LAYER>;
+        automouse-layer = <MOUSE>;
+        scroll-layers = <SCROLL>;
     };
 };
