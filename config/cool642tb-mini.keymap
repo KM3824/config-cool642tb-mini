@@ -37,19 +37,7 @@
 };
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        MB1 {
-            bindings = <&mkp MB1>;
-            key-positions = <19 20>;
-        };
-
-        MB2 {
-            bindings = <&mkp MB2>;
-            key-positions = <31 32>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     mo2: mo2 {
         compatible = "zmk,behavior-mod-morph";
