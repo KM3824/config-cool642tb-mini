@@ -188,10 +188,10 @@
 
         FUNCTION {
             bindings = <
-&kp BACKSPACE  &kp LS(NUMBER_1)   &kp SLASH             &kp LS(SLASH)     &moC                                  &kp TAB     &mo7          &mo8    &mo9          &kp BACKSPACE
-&kp LS(N7)     &kp RIGHT_BRACKET  &kp BACKSLASH         &kp SINGLE_QUOTE  &kp MINUS      &kp LC(Y)      &trans  &kp PERIOD  &kp NUMBER_4  &kp N5  &mo6          &moI
-&kp LS(N5)     &kp ASTRK          &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp SEMICOLON  &trans         &trans  &kp COMMA   &kp NUMBER_1  &mo2    &kp NUMBER_3  &kp N0
-&trans         &trans             &trans                &trans            &trans         &trans         &trans  &trans                                          &kp LG(LS(S))
+&kp BACKSPACE     &kp LS(NUMBER_1)   &kp SLASH             &kp LS(SLASH)     &moC                                  &kp TAB     &mo7          &mo8    &mo9          &kp BACKSPACE
+&kp LS(NUMBER_6)  &kp RIGHT_BRACKET  &kp BACKSLASH         &kp SINGLE_QUOTE  &kp MINUS      &kp LC(Y)      &trans  &kp PERIOD  &kp NUMBER_4  &kp N5  &mo6          &moI
+&kp LS(N5)        &kp ASTRK          &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp SEMICOLON  &trans         &trans  &kp COMMA   &kp NUMBER_1  &mo2    &kp NUMBER_3  &kp N0
+&trans            &trans             &trans                &trans            &trans         &trans         &trans  &trans                                          &kp LG(LS(S))
             >;
 
             sensor-bindings = <&encoder_msc_up_down>;
