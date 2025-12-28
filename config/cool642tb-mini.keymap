@@ -37,7 +37,15 @@
 };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        Grave {
+            bindings = <&kp GRAVE>;
+            key-positions = <1 2>;
+            layers = <0>;
+        };
+    };
 
     mo2: mo2 {
         compatible = "zmk,behavior-mod-morph";
