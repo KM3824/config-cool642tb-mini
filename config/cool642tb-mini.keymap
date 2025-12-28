@@ -177,10 +177,10 @@
 
         default_layer {
             bindings = <
-&kp Q    &kp L            &kp U                   &kp MINUS             &moI                                                            &kp F        &kp W    &kp R  &kp Y  &kp P
-&kp E    &kp I            &kp A                   &kp O                 &kp COMMA            &kp LC(Y)             &kp RA(RIGHT_ARROW)  &kp K        &kp T    &kp N  &kp S  &kp H
-&kp Z    &kp X            &kp C                   &kp V                 &kp PERIOD           &kp DEL               &kp RA(LEFT_ARROW)   &kp G        &lt 5 D  &kp M  &kp J  &lt 4 B
-&kp TAB  &mt LEFT_WIN F7  &mt LC(LSHFT) LEFT_ALT  &mt LCTRL LANGUAGE_2  &mt LSHFT BACKSPACE  &lt 2 LANGUAGE_1      &lt 1 SPACE          &lt 2 ENTER                         &lt 5 ESCAPE
+&kp Q    &kp L            &kp U         &kp MINUS             &kp DELETE                                                      &kp F        &kp W    &kp R  &kp Y  &kp P
+&kp E    &kp I            &kp A         &kp O                 &kp COMMA            &kp LC(Y)             &kp RA(RIGHT_ARROW)  &kp K        &kp T    &kp N  &kp S  &kp H
+&kp Z    &kp X            &kp C         &kp V                 &kp PERIOD           &moI                  &kp RA(LEFT_ARROW)   &kp G        &lt 5 D  &kp M  &kp J  &lt 4 B
+&kp TAB  &mt LEFT_WIN F7  &kp LEFT_ALT  &mt LCTRL LANGUAGE_2  &mt LSHFT BACKSPACE  &lt 2 LANGUAGE_1      &lt 1 SPACE          &lt 2 ENTER                         &lt 5 ESCAPE
             >;
 
             sensor-bindings = <&encoder_msc_up_down>;
@@ -199,10 +199,10 @@
 
         NUM {
             bindings = <
-&kp TAB                &mo7          &mo8       &mo9          &kp MINUS                                                      &kp ENTER        &kp RC(PAGE_UP)  &kp UP_ARROW    &kp RC(PAGE_DOWN)  &kp DEL
-&kp LS(DOUBLE_QUOTES)  &kp NUMBER_4  &kp N5     &mo6          &kp RS(COLON)       &trans                             &trans  &kp TAB          &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW    &kp BACKSPACE
-&kp N0                 &kp NUMBER_1  &mo2       &kp NUMBER_3  &mt LEFT_ALT SLASH  &trans                             &trans  &kp RS(RC(TAB))  &kp RC(TAB)      &kp F2          &kp ESCAPE         &kp F4
-&kp ESC                &kp PERIOD    &kp COMMA  &trans        &trans              &mt LS(LEFT_CONTROL) LEFT_ALT      &trans  &trans                                                               &trans
+&kp TAB                &mo7          &mo8       &mo9          &kp MINUS                                      &kp ENTER        &kp RC(PAGE_UP)  &kp UP_ARROW    &kp RC(PAGE_DOWN)  &kp DEL
+&kp LS(DOUBLE_QUOTES)  &kp NUMBER_4  &kp N5     &mo6          &kp RS(COLON)       &trans             &trans  &kp TAB          &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW    &kp BACKSPACE
+&kp N0                 &kp NUMBER_1  &mo2       &kp NUMBER_3  &mt LEFT_ALT SLASH  &kp LC(LSHFT)      &trans  &kp RS(RC(TAB))  &kp RC(TAB)      &kp F2          &kp ESCAPE         &kp F4
+&kp ESC                &kp PERIOD    &kp COMMA  &trans        &trans              &kp LEFT_ALT       &trans  &trans                                                               &trans
             >;
 
             sensor-bindings = <&encoder_msc_up_down>;
